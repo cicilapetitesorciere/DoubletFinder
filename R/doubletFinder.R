@@ -10,7 +10,7 @@
 #'
 #'
 #' @param seu A fully-processed Seurat object (i.e., After NormalizeData,
-#' FindVariableGenes, ScaleData, and RunPCA have all been performed).
+#' FindVariableFeatures, ScaleData, and RunPCA have all been performed).
 #' @param PCs Number of statistically-significant principal components (e.g.,
 #' as estimated from PC elbow plot)
 #' @param pN The number of generated artificial doublets, expressed as a
